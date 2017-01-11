@@ -1,3 +1,4 @@
+#set your working directory
 setwd("~/Desktop/Online Coursera/Coursera-R-Programming/week2/")
 complete <- function(directory, id = 1:332) {
     ## 'directory' is a character vector of length 1 indicating
