@@ -1,14 +1,17 @@
 # Quiz 2
 # Problem 1.
+
 cube <- function(x, n){
     x^3
 }
 cube(3) # 27
+
 # Problem 2.
 x <- 1:10
 if(x > 5) {
     x <- 0
 } # warning
+
 # Problem 3.
 f <- function(x) {
     g <- function(y) {
@@ -19,6 +22,7 @@ f <- function(x) {
 }
 z <- 10
 f(3) # 10
+
 # Problem 4.
 x <- 5
 y <- if(x < 3) {
@@ -27,6 +31,7 @@ y <- if(x < 3) {
     10
 }
 y # 10
+
 # Problem 5.
 h <- function(x, y = NULL, d = 3L) {
     z <- cbind(x, d)
@@ -40,10 +45,12 @@ h <- function(x, y = NULL, d = 3L) {
     g <- g + 10
     g
 }
+        
 # free variable: f
 f <- function(x, y) {
     x^2 + y / z
 } # free variable: z
+        
 # Problem 6.
 # environment: a collection of symbol/value pair.
 # Problem 7.
